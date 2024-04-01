@@ -1,0 +1,47 @@
+/* Default styles */
+.login-logo a {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .login-box {
+    width: 30%;
+    margin-left: 750px;
+    margin-top: 10%;
+    background-color: rgb(91, 147, 150);
+  }
+  
+  .login-box-msg {
+    text-align: center;
+  }
+  
+  body {
+    background-image: url('/image/back_ground_image.jpg');
+    background-size: cover;
+  }
+  
+  .card {
+    background-color: antiquewhite;
+  }
+  
+  /* Media queries for tablets */
+  @media (max-width: 768px) {
+    .login-box {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20%;
+    }
+  }
+  
+  /* Media queries for Android devices */
+  @media only screen and (max-device-width: 480px) {
+    .login-box {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 30%;
+    }
+  }
+  

@@ -1,0 +1,128 @@
+/* Navbar background color */
+.navbar {
+      background-color: #7A9498; 
+    
+    }
+    
+    
+    .navbar-brand {
+      color: #fff; 
+    }
+    
+    .nav-link,
+    .dropdown-menu a {
+      color: #0d0505; 
+    }
+    
+    .nav-link.active {
+      color: #fff; 
+    }
+    
+    .dropdown-menu {
+      background-color: #f8f8f8; 
+    }
+    
+    .form-control-sidebar {
+      background-color: #f8f9fa; 
+      color: #495057; 
+      }
+    
+
+body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+   
+   
+}
+  /* about */ 
+  .content_about {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color:rgba(176, 167, 167, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  
+  header {
+      text-align: center;
+  }
+  h3{
+    text-align: center;
+  }
+  .content {
+      padding: 20px;
+      text-align: justify;
+  }
+  
+  h1 {
+      color: #333;
+  }
+  
+  p {
+      color: rgb(242, 240, 240);
+  }
+  /* feature */
+
+.section-p1{
+   padding: 30px 70px;   
+}
+#feature .fe-box{
+      width:180px;
+      text-align:center;
+      padding: 10px 5px;
+      box-shadow: 20px 20px 34px rgba(0,0,0,0.3);
+      border: 1px solid #cce7d0;
+      border-radius: 4px;
+      margin: 0px 5px;
+}
+#feature .fe-box:hover{
+      box-shadow: 10px 10px 54px rgba(70,62,221,0.1);
+}
+#feature .fe-box img{
+      width:100%;
+      margin-bottom: 10px;
+}
+#feature .fe-box h6{
+      padding: 8px 7px 5px 7px;
+      line-height: 1;
+      border-radius: 4px;
+      color:#088178;
+      display: inline-block;
+      background-color:#fddde4 ;
+}
+#feature .fe-box:nth-child(2) h6{
+      background-color: #d1e8f2;
+}
+#feature .fe-box:nth-child(3) h6{
+      background-color: #cdd4f8;
+}
+#feature .fe-box:nth-child(4) h6{
+      background-color: #f6bdf6;
+}
+#feature .fe-box:nth-child(5) h6{
+      background-color: #f6bd89;
+}
+
+#feature{
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap:wrap;
+}
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+      .header a {
+        float: none;
+        display:block;
+        text-align: left;
+      }
+      .header-right {
+        float: none;
+      }
+    }
